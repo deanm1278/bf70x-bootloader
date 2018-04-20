@@ -9,3 +9,4 @@ Example usage:
 ```
 openocd.exe -f bf706-ez-loader.cfg -c "load_bootloader bootloader.bin; flash write_image write_this_to_flash.ldr 0 bin; shutdown
 ```
+This works with the bf706 ezmini development board.
